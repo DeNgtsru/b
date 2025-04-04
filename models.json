@@ -1,0 +1,68 @@
+{
+  "my-example": {
+    "eval_steps": 100,
+    "max_steps": 1000,
+    "save_steps": 100
+  },
+  "fxmarty/really-tiny-falcon-testing": {
+    "flash_attention": false,
+    "max_steps": 25000
+  },
+  "tiiuae/falcon-7b": {
+    "flash_attention": false
+  },
+  "tiiuae/falcon-mamba-7b": {
+    "flash_attention": false
+  },
+  "tiiuae/falcon-rw-1b": {
+    "flash_attention": false
+  },
+  "EleutherAI/gpt-neo-1.3B": {
+    "flash_attention": false
+  },
+  "EleutherAI/gpt-neo-125m": {
+    "flash_attention": false
+  },
+  "NousResearch/CodeLlama-13b-hf": {
+    "flash_attention": false
+  },
+  "NousResearch/CodeLlama-13b-hf-flash": {
+    "flash_attention": false
+  },
+  "NousResearch/CodeLlama-7b-hf": {
+    "flash_attention": false
+  },
+  "NousResearch/CodeLlama-7b-hf-flash": {
+    "flash_attention": false
+  },
+  "bigscience/bloom-560m": {
+    "flash_attention": false
+  },
+  "bigscience/bloomz-560m": {
+    "flash_attention": false
+  },
+  "NousResearch/Yarn-Llama-2-13b-64k": {
+    "flash_attention": false,
+    "max_steps": 250
+  },
+  "NousResearch/Yarn-Llama-2-7b-64k": {
+    "flash_attention": false
+  },
+  "katuni4ka/tiny-random-codegen2": {
+    "flash_attention": false,
+    "sequence_len": 1024
+  },
+  "samoline/9c3101fe-8bc7-4dad-9c9a-edfaacfe28fe": {
+    "max_steps": 50,
+    "num_epochs": 1
+  },
+  "dunzhang/stella_en_1.5B_v5": {
+    "flash_attention": false
+  },
+  "NousResearch/Yarn-Llama-2-13b-128k": {
+    "flash_attention": false
+  },
+  "NousResearch/Yarn-Llama-2-7b-128k": {
+    "flash_attention": false
+  }
+}
