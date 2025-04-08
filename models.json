@@ -4,6 +4,9 @@
     "max_steps": 1000,
     "save_steps": 100
   },
+  "unsloth/Qwen2.5-1.5B": {
+    "max_steps": 4000
+  },
   "fxmarty/really-tiny-falcon-testing": {
     "flash_attention": false,
     "max_steps": 25000
